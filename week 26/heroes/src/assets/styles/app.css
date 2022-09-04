@@ -1,0 +1,23 @@
+body {
+    margin: 20px 150px 20px 150px;
+    font-family: 'Mulish', sans-serif;
+}
+
+img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#heroName {
+    margin-top: 50px;
+}
+
+#rating, #sendBtn {
+    margin-top: 5px;
+}
