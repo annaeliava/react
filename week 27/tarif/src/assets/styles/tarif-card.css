@@ -15,6 +15,7 @@
     height: 40px;
     font-size: 18px;
     border-bottom: 1px white solid;
+    color: lightgray;
 }
 
 .sub {
@@ -23,6 +24,7 @@
     align-items: center;
     width: 250px;
     height: 195px;
+    color: white;
 }
 
 #rub {
@@ -52,6 +54,16 @@
     align-items: center; 
     font-size: 15px;
     height: 55px;
+}
+
+.price, .vol {
+    background-color: lightgrey;
+    color: gray;
+}
+
+.selected {
+    height: 335px;
+    width: 255px;
 }
 
 
