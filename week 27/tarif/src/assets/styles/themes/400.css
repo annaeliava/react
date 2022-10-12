@@ -1,0 +1,14 @@
+.title {
+    background-color: green;
+    color: lightgray;                   
+}
+
+.sub {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.price, .vol {
+    background-color: lightgrey;
+    color: gray;
+}

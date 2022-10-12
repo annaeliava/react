@@ -1,0 +1,57 @@
+@import "normalize.css";
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    width: 250px;
+    border: 1px white solid;
+}
+
+.title {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 18px;
+    border-bottom: 1px white solid;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 195px;
+}
+
+#rub {
+    margin-right: 10px;
+}
+
+#bold {
+    font-size: 60px;
+}
+
+#month {
+    margin-left: 10px;
+}
+
+.price {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 40px;
+    font-size: 15px;
+}
+
+.vol {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 15px;
+    height: 55px;
+}
+
+

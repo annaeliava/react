@@ -1,0 +1,14 @@
+.title {
+    background-color: black;
+    color: lightgray;                   
+}
+
+.sub {
+    background-color: rgba(169, 169, 169, 0.211);
+    color: white;
+}
+
+.price, .vol {
+    background-color: lightgrey;
+    color: gray;
+}
