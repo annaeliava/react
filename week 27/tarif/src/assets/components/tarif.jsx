@@ -1,10 +1,10 @@
 import React from 'react';
-import './react/week 27/tarif/src/assets/styles/tarif-card.css';
+import './TariffCard.module.css';
 
 function Tarif(props) {
     return (
         <>
-            <div className={'card' + (isSelected ? 'selected' : '')}>
+            <div className={"card" + (props.isSelected ? "selected" : "")}>
                 <div className='title' style={{ backgroundColor: '{props.bg}' }}>Безлимитный {props.price} </div>
                 <div className='sub' style={{ backgroundColor: '{props.bg}' }}>
                     <span id='rub'>руб</span>
