@@ -60,8 +60,5 @@
 }
 
 .selected {
-    height: 335px;
-    width: 255px;
+    border: 2px solid yellow;
 }
-
-
