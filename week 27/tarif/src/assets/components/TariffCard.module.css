@@ -16,7 +16,7 @@
     color: lightgray;
 }
 
-.sub {
+.priceSection {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,19 +25,19 @@
     color: white;
 }
 
-#rub {
+#currency {
     margin-right: 10px;
 }
 
-#bold {
+#price {
     font-size: 60px;
 }
 
-#month {
+#forMonth {
     margin-left: 10px;
 }
 
-.price {
+.mbit {
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -45,7 +45,7 @@
     font-size: 15px;
 }
 
-.vol {
+.volumeInclusion {
     display: flex; 
     flex-direction: column;
     justify-content: center; 
@@ -54,7 +54,7 @@
     height: 55px;
 }
 
-.price, .vol {
+.mbit, .volumeInclusion {
     background-color: lightgrey;
     color: gray;
 }

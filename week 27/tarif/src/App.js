@@ -1,11 +1,11 @@
-import Tarif from "./assets/components/tarif";
+import Tariff from "./assets/components/Tariff";
 import './assets/styles/app.css';
 
-const packages = [
-  {price: '300', mb: '10', bg: '(0, 0, 255)'},
-  {price: '450', mb: '50', bg: '(0, 128, 0)'},
-  {price: '550', mb: '100', bg: '(255, 0, 0)', isSelected: true},
-  {price: '1000', mb: '200', bg: '(0, 0, 0)'}
+const tariff_data = [
+  {price: '300', mbitQuantity: '10', backgroundRGB: '(0, 0, 255)'},
+  {price: '450', mbitQuantity: '50', backgroundRGB: '(0, 128, 0)'},
+  {price: '550', mbitQuantity: '100', backgroundRGB: '(255, 0, 0)', isSelected: true},
+  {price: '1000', mbitQuantity: '200', backgroundRGB: '(0, 0, 0)'}
 ];
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
     <>
       <div className="container">
         {
-          packages.map((packages) =>
-          <Tarif price = {packages.price} mb = {packages.mb} bg = {packages.bg} isSelected = {packages.isSelected} />
+          tariff_data.map((tariff_data) =>
+          <Tariff price = {tariff_data.price} mbitQuantity = {tariff_data.mbitQuantity} backgroundRGB = {tariff_data.backgroundRGB} isSelected = {tariff_data.isSelected} />
           ) 
         }
       </div>
