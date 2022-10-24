@@ -93,6 +93,13 @@
     color: gray;
 }
 
+.alert {
+    display: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #da4453;
+}
+
 .selected {
     margin-left: 5px;
     margin-right: 6px;
@@ -143,5 +150,36 @@
 
     .volumeInclusion {
         height: 57px;
+    }
+}
+
+.chosen {
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+    margin-right: 7px;
+    padding: 15px;
+    height: 340px;
+    width: 255px;
+    border: 1px #4fc1e9 solid;
+    box-shadow: 5px 5px 5px lightgray;
+    background-color: #4fc1e9;
+    cursor: pointer;
+
+    .title,
+    .priceSection,
+    .mbitSection,
+    .volumeInclusion {
+        display: none;
+    }
+
+    .alert {
+        display: block;
+        font-family: 'Noto Serif', serif;
+        color: #E6E9ED;
+    }
+
+    .chosenTariff {
+        font-style: italic;
     }
 }

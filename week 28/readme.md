@@ -64,7 +64,7 @@
 
 ```jsx
   const [pressed, setPressed] = useState(false);
-  const handleChange = () = > {
+  const handleChange = () => {
     setPressed(!pressed);
   }
   return (
