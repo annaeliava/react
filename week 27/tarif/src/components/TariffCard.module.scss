@@ -153,6 +153,19 @@
     }
 }
 
+.unchosen {
+    .title,
+    .priceSection,
+    .mbitSection,
+    .volumeInclusion {
+        display: flex;
+    }
+
+    .alert {
+        display: none;
+    }
+}
+
 .chosen {
     display: flex;
     align-items: center;
