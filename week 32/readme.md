@@ -58,11 +58,11 @@ class PureComponent extends React.PureComponent {
 
         const [text, setText] = useState(initialValue:'');
 
-        handleChange = (e) => {
+        const handleChange = (e) => {
             setText(e.target.value);
         };
 
-        handleSubmit = (e) => {
+        const handleSubmit = (e) => {
             if(text === '') {
                 alert('Something went wrong :(')
             } else {
@@ -97,11 +97,11 @@ export default class App extends React.Component {
     password: ""
   };
 
-  handleChange = (e) => {
+  const handleChange = (e) => {
     this.setState({ [e.currentTarget.id]: e.currentTarget.value });
   };
 
-  handleSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     alert(`Welcome, ${this.state.email}`);
   };
