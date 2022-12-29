@@ -5,11 +5,12 @@ export default function Chat() {
     const [messages, setMessage] = useState([]);
 
     const handleChange = (e) => {
-        setText({ ...text, content: e.target.value });
+        setText({ ...text, [e.target.dataset.name]: e.target.value });
     };
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
         const arrayMessages = [...messages];
         arrayMessages.unshift(text.message);
         setMessage(arrayMessages);
